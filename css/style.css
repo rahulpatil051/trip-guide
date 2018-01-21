@@ -1,0 +1,141 @@
+
+body{
+	font: 13px/1.5 'Open Sans', arial, sans-serif;
+}
+.navbar-default {
+	 margin: 0;
+    background-color: #c0de94;
+    height: 80px;
+    padding: 15px 10px;
+  
+
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: white;
+}
+
+.navbar-nav>li{
+	margin-right: 10px;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: #e8645a;
+    box-shadow: 0 2px 0 #e2534b;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    float: left;
+    min-width: 132px;
+    margin: 0;
+}
+
+.dropdown-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857;
+    color: white;
+    white-space: nowrap;
+  background-color: #e5655d;
+  margin-bottom: 5px;
+}
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #76c7c0;
+}
+
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+ 
+    background-color: white;
+} 
+
+h4{
+	text-align: center;
+}
+.carousel{
+	height: 397px;
+}
+
+.carousel .item {
+   height: 397px;
+   background: linear-gradient(#125182,#002445);
+   box-shadow: inset 0 5px 15px #0f3e62;
+
+}
+
+
+.innerBox{
+	width: 315px;
+    height: 320px;
+    background: #fefeff;
+    position: relative;
+    margin-top: 40px;
+
+
+}
+footer{
+	background: #464646;
+	height: 100px;
+	margin-top: 40px;
+	color: white;
+	border: 2px solid black;
+}
+
+}
+.social{
+  width: 121px;
+  float: left;
+  padding-left: 10px;
+ 
+}
+
+.social li{
+  float: left;
+  margin-right: 10px;
+  list-style: none
+}
+
+.social li a{
+  color:white;
+  text-decoration: none;
+}
+
+.icon {
+	font: 25px FontAwesome;
+	color: white;
+}
+
+.social :hover .icon{
+   color: #01b6d7;
+}
+
+@media(min-width: 768px) and (max-width: 992px){
+
+.navbar-nav>li>a {
+    padding: 20px 9px;
+    font-size: 11px;
+}
+
+.navbar-nav>li{
+	margin-right: 0;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    float: left;
+    min-width: 90px;
+
+}
+
+}
